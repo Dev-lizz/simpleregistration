@@ -1,6 +1,6 @@
-const registerBtn = document.getElementById('registerBtn');
-const loginBtn = document.getElementById('loginBtn');
-const container = document.getElementById('main-container');
+let registerBtn = document.getElementById('registerBtn');
+let loginBtn = document.getElementById('loginBtn');
+let container = document.getElementById('main-container');
 
     registerBtn.addEventListener('click', () => {
         container.classList.add("active");
@@ -11,15 +11,3 @@ const container = document.getElementById('main-container');
     });
 
     
-const toRegisterLink = document.getElementById('to-register');
-const toLoginLink = document.getElementById('to-login');
-
-    toRegisterLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        container.classList.add("active");
-    });
-
-    toLoginLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        container.classList.remove("active");
-    });

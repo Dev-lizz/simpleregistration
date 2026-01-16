@@ -132,7 +132,7 @@ body{
 }
 
 .button-btn{
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 20px;
     background-color: #4dcb8e80;
@@ -154,25 +154,8 @@ body{
     padding: 30px;
 
 }
-.form-p{
-    display: flex;
-    justify-content: end;
-    padding: 15px 50px 0 0;
-    font-size: small;
-}
 
-.link-botton{
-    text-decoration: none;
-    color: #4DCB8E;;
-    padding-left: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
-.link-botton:hover{
-    color: #7bffbf;
-    text-decoration: underline;
-}
 input[type="date"] {
     cursor: text;
 }
@@ -261,7 +244,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .button-btn-l {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 20px;
     background-color: #FFFFFF;
