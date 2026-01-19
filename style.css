@@ -141,8 +141,8 @@ body{
     width: 80%;
     padding: 10px;
     border-radius: 20px;
-    background-color: #4dcb8e80;
-    border: 1px solid #4DCB8E;
+    background-color: #4DCB8E;
+    border: 1px solid #1b272180;
     box-shadow: 2px 2px 5px rgb(0,0,0, .212);
     text-transform: uppercase;
 }
